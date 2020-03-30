@@ -1,0 +1,13 @@
+.idea
+.idea/*
+.env
+.htaccess
+vendor
+vendor/*
+composer.lock
+public/uploads/*
+public/logs/*
+_ide_helper.php
+.phpstorm.meta.php
+.php_cs.cache
+error.log
