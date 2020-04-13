@@ -7,7 +7,7 @@ html {
 body {
     /*font-family: "宋体";*/
     font-family: "Microsoft YaHei UI";
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #666666;
 }
 
@@ -27,3 +27,10 @@ h1 {
 /*删除线*/
 .oldPrice{text-decoration: line-through;}
 
+/*段落排版*/
+p{
+    text-indent: 2rem;/*首行缩进*/
+    line-height:2rem; /*行间距（行高）*/
+    letter-spacing:0.1rem; /*中文字间距、字母间距*/
+    text-align:left;
+}

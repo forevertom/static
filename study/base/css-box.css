@@ -1,0 +1,60 @@
+html {
+    font-size: 12px;
+}
+
+* {
+    padding: 1px;
+    margin: 1px;
+}
+
+/*一.常用的块状元素有：*/
+
+/*设置display:block就是将元素显示为块级元素*/
+/*1、每个块级元素都从新的一行开始，并且其后的元素也另起一行。（真霸道，一个块级元素独占一行）*/
+/*2、元素的高度、宽度、行高以及顶和底边距都可设置。*/
+/*3、元素宽度在不设置的情况下，是它本身父容器的100%（和父元素的宽度一致），除非设定一个宽度。*/
+/*<div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>*/
+div {
+    border: 2px dotted #ccc;
+    /*!*border-width:2px;*! dashed（虚线）| dotted（点线）| solid（实线）。*/
+    /*border-style:solid;*/
+    /*border-color:red;*/
+}
+
+div {
+    border-bottom: 1px solid red;
+    /*border-top:1px solid red;*/
+    /*border-right:1px solid red;*/
+    /*border-left:1px solid red;*/
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;/*上下左右内边距*/
+    /*padding: 10px 20px;!*上下和左右内边距*!*/
+    /*padding-top:20px;*/
+    /*padding-right:10px;*/
+    /*padding-bottom:15px;*/
+    /*padding-left:30px;*/
+    border: 1px solid red;
+}
+
+#box3{margin-bottom:100px;}
+
+/*内联元素a转换为块状元素，从而使a元素具有块状元素特点。*/
+
+/*二.常用的内联元素有：*/
+/*<a>、<span>、<br>、<i>、<em>、<strong>、<label>、<q>、<var>、<cite>、<code>*/
+/*在html中，<span>、<a>、<label>、 <strong> 和<em>就是典型的内联元素（行内元素）（inline）元素。
+当然块状元素也可以通过代码display:inline将元素设置为内联元素。
+如下代码就是将块状元素div转换为内联元素，从而使 div 元素具有内联元素特点*/
+/*div {*/
+/*display: inline;*/
+/*}*/
+
+/*三.常用的内联块状元素有：*/
+/*<img>、<input>*/
+/*内联块状元素（inline-block）就是同时具备内联元素、块状元素的特点，
+代码display:inline-block就是将元素设置为内联块状元素。
+(css2.1新增)，<img>、<input>标签就是这种内联块状标*/
